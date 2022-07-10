@@ -18,7 +18,7 @@
 
       <div class="first-row">
         <input type="text" name="result" class="result" id="result" value="" placeholder="Result" readonly />
-        <input type="button" value="C" onclick="clearScreen()" class="clear" />
+        <input type="button" value="C" onclick="clearScreen(), new Audio('audio/beep-1.mp3').play()" class="clear" />
       </div>
       <div class="second-row">
         <input type="button" value="1" onclick="liveScreen(1)" id="one" />
